@@ -4,9 +4,7 @@
   "lsp": true,
   "permission": {
     "bash": {
-      "*": "ask",
-      "git add *": "ask",  
-      "git commit *": "ask",
+      "git *": "ask",  
       "rm *": "ask"
     }
   }
