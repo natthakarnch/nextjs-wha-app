@@ -1,10 +1,11 @@
 import Hero from "@/components/hero";
-
-// http://localhost:3000/
+ 
 export default function Home() {
   return (
-    <div>
-     <Hero />
+    <div className="p-8">
+      {/* <h1 className="text-4xl font-bold mb-4 text-center">Hello Word!</h1> */}
+      <Hero />
     </div>
   );
 }
+
