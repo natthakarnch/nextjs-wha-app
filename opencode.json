@@ -14,6 +14,10 @@
     "bash": {
       "git *": "ask",  
       "rm *": "ask"
+    },
+    "skill": {
+      "*": "allow",
+      "vercel-*": "ask"
     }
   }
 }

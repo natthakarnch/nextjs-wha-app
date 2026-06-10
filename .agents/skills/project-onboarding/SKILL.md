@@ -31,6 +31,7 @@ npm run lint
 
 - ต้องติดตั้ง และปิด Docker Desktop ไว่
 - ให้อธิบายการรันโปรเจค และให้ใช้คำสั่ง npm run dev
+- อย่าลืม copy .env 
 
 ## Output
 
