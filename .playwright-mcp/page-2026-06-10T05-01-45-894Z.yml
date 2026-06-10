@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "Just released v1.0.0" [ref=e6] [cursor=pointer]:
+      - /url: "#"
+      - text: Just released v1.0.0
+      - img
+    - heading "Ship better UI without the hassle" [level=1] [ref=e7]
+    - paragraph [ref=e8]: Instead of starting from scratch every time, use thoughtfully designed blocks that give you a solid foundation for any UI.
+    - generic [ref=e9]:
+      - button "Get Started" [ref=e10] [cursor=pointer]:
+        - text: Get Started
+        - img
+      - button "Watch Demo" [ref=e11] [cursor=pointer]:
+        - img
+        - text: Watch Demo
+  - button "Open Next.js Dev Tools" [ref=e17] [cursor=pointer]:
+    - img [ref=e18]
+  - alert [ref=e21]

@@ -1,0 +1,9 @@
+[     490ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0wczimo._.js:2971
+[     521ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0wczimo._.js:2971
+[   12030ms] [LOG] SESSION: {"session":{"expiresAt":"2026-06-17T05:01:30.028Z","token":"wiKAX4esslzPUYrgQwWXKrSPnwC4lvhk","createdAt":"2026-06-10T05:01:30.029Z","updatedAt":"2026-06-10T05:01:30.029Z","ipAddress":"0000:0000:0000:0000:0000:0000:0000:0000","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36","userId":"f898dee1-ceb9-4e18-b6e7-f0b1160a98e0","id":"ehLJSHSXUgR6fEH7LBbO8FAVxE0EwtLM"},"user":{"name":"Admin","email":"admin@example.com","emailVerified":true,"image":null,"createdAt":"2026-06-10T04:48:13.813Z","updatedAt":"2026-06-10T04:48:13.813Z","id":"f898dee1-ceb9-4e18-b6e7-f0b1160a98e0"}} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0wczimo._.js:2971
+[   35950ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0wczimo._.js:2971
+[   36780ms] [LOG] [Fast Refresh] done in 937ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0wczimo._.js:2971
+[   37381ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0wczimo._.js:2971
+[   37492ms] [LOG] [Fast Refresh] done in 216ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0wczimo._.js:2971
+[   37957ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0wczimo._.js:2971
+[   38439ms] [LOG] [Fast Refresh] done in 584ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0wczimo._.js:2971

@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - img "โลโก้ Next.js" [ref=e4]
+      - navigation "Main" [ref=e5]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "หน้าหลัก" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "หลักสูตร" [ref=e11] [cursor=pointer]:
+              - /url: /course
+          - listitem [ref=e12]:
+            - link "เกี่ยวกับเรา" [ref=e13] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e14]:
+            - link "สินค้า" [ref=e15] [cursor=pointer]:
+              - /url: /product
+          - listitem [ref=e16]:
+            - link "ติดต่อเรา" [ref=e17] [cursor=pointer]:
+              - /url: /contact
+      - link "0 ชิ้น" [ref=e18] [cursor=pointer]:
+        - /url: /cart
+        - generic [ref=e19]:
+          - img
+          - generic [ref=e20]: "0"
+          - text: ชิ้น
+      - generic [ref=e21]:
+        - generic [ref=e22]: สวัสดี, Admin
+        - button "ออกจากระบบ" [ref=e24] [cursor=pointer]
+  - generic [ref=e27]:
+    - link "Just released v1.0.0" [ref=e28] [cursor=pointer]:
+      - /url: "#"
+      - text: Just released v1.0.0
+      - img
+    - heading "Ship better UI without the hassle" [level=1] [ref=e29]
+    - paragraph [ref=e30]: Instead of starting from scratch every time, use thoughtfully designed blocks that give you a solid foundation for any UI.
+    - generic [ref=e31]:
+      - button "Get Started" [ref=e32] [cursor=pointer]:
+        - text: Get Started
+        - img
+      - button "Watch Demo" [ref=e33] [cursor=pointer]:
+        - img
+        - text: Watch Demo
+  - button "Open Next.js Dev Tools" [ref=e39] [cursor=pointer]:
+    - img [ref=e40]
+  - alert [ref=e43]
