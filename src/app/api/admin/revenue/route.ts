@@ -1,7 +1,9 @@
 import { NextResponse } from 'next/server';
 import { AdminService } from '@/services/admin-service';
+import { connection } from 'next/server';
 
 export async function GET(request: Request) {
+  await connection();
   try {
     const { searchParams } = new URL(request.url);
     const period = (searchParams.get('period') as '7d' | '30d' | '90d') || '30d';

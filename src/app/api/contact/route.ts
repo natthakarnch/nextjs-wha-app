@@ -2,10 +2,14 @@ import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { contactSchema } from '@/lib/validations/contact'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 export async function POST(req: Request) {
   try {
+    const resendApiKey = process.env.RESEND_API_KEY
+    if (!resendApiKey) {
+      throw new Error('RESEND_API_KEY is not defined')
+    }
+
+    const resend = new Resend(resendApiKey)
     const body = await req.json()
     const result = contactSchema.safeParse(body)
 
